@@ -37,7 +37,7 @@ trigger:
     displayName: 'Build the project - Release'
     inputs:
     command: 'build'
-    arguments: '--no-restore --configuration Release'
+    arguments: '--no-restore --configuation Release'
     projects: '**/*.csproj'
   
   - task: DotNetCoreCLI@2
